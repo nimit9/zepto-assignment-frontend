@@ -20,7 +20,7 @@ const PickedUserPills = () => {
                         <UserAvatar userId={userId} userName={name} size={20} />
                         <span className="text-sm col-span-2">{name}</span>
                         <span
-                            className="mr-1.5 text-[#777]"
+                            className="mr-1.5 text-[#777] cursor-pointer"
                             onClick={(e) => {
                                 e.stopPropagation();
                                 removePickedUser(userId);

@@ -31,7 +31,7 @@ const SearchUsers = () => {
     return (
         <>
             <div
-                className="w-full flex flex-wrap gap-4 border-b-2 border-[#0b57d0] pb-2"
+                className="w-full flex flex-wrap gap-2 border-b-2 border-[#0b57d0] pb-2 cursor-text"
                 onClick={(e) => {
                     e.stopPropagation();
                     focusInput();
