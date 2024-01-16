@@ -1,4 +1,4 @@
-import { KeyboardEvent, useRef, useState } from 'react';
+import { useState } from 'react';
 
 import useOutsideClick from '../hooks/useClickOutside';
 import { useAppContext } from '../context/context';
